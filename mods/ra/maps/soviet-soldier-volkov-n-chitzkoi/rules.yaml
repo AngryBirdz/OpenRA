@@ -22,7 +22,11 @@ Player:
 MSLO:
 	Buildable:
 		Prerequisites: ~disabled
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> bleed
 E7:
 	Buildable:
 		Prerequisites: ~disabled
@@ -30,6 +34,7 @@ E7:
 		HP: 25000
 	Armor:
 		Type: Heavy
+<<<<<<< HEAD
 
 2TNK:
 	Buildable:
@@ -67,6 +72,45 @@ V01:
 	SpawnActorOnDeath:
 		Actor: healcrate
 
+=======
+        
+2TNK:
+	Buildable:
+		Prerequisites: ~vehicles.allies, ~techlevel.medium
+        
+CA:
+	Buildable:
+		Prerequisites: ~syrd, ~techlevel.high
+        
+C2:
+	Inherits@2: ^ArmedCivilian
+        
+C3:
+	Inherits@2: ^ArmedCivilian
+        
+C4:
+	Inherits@2: ^ArmedCivilian
+        
+C5:
+	Inherits@2: ^ArmedCivilian
+        
+C6:
+	Inherits@2: ^ArmedCivilian
+        
+C8:
+	Inherits@2: ^ArmedCivilian
+        
+C9:
+	Inherits@2: ^ArmedCivilian
+        
+C10:
+	Inherits@2: ^ArmedCivilian
+        
+V01:
+	SpawnActorOnDeath:
+		Actor: healcrate
+        
+>>>>>>> bleed
 HOSP:
 	Tooltip:
 		GenericName: Hospital
@@ -76,6 +120,13 @@ HOSP:
 	-TooltipDescription@other:
 	SpawnActorOnDeath:
 		Actor: healcrate
+<<<<<<< HEAD
+=======
+        
+MONEYCRATE:
+	GiveCashCrateAction:
+		Amount: 2000
+>>>>>>> bleed
 
 ^Vehicle:
 	-Demolishable:
@@ -95,8 +146,15 @@ AFAC:
 		GenericName: Alloy Facility
 		GenericVisibility: Enemy, Ally, Neutral
 		GenericStancePrefix: false
+<<<<<<< HEAD
 	Capturable:
 		Types: ~disabled
+=======
+	-TooltipDescription@ally:
+	-TooltipDescription@other:
+	-ExternalCapturable:
+	-ExternalCapturableBar:
+>>>>>>> bleed
 	-EngineerRepairable:
 	-GpsDot:
 	RenderSprites:
@@ -111,8 +169,13 @@ CCEN:
 		GenericName: Control Center
 		GenericVisibility: Enemy, Ally, Neutral
 		GenericStancePrefix: false
+<<<<<<< HEAD
 	Capturable:
 		Types: ~disabled
+=======
+	-ExternalCapturable:
+	-ExternalCapturableBar:
+>>>>>>> bleed
 	-EngineerRepairable:
 	GpsPower:
 		Prerequisites: ~disabled
@@ -190,6 +253,7 @@ VOLK:
 	Armament:
 		Weapon: VolkovWeapon
 	DetectCloaked:
+<<<<<<< HEAD
 		CloakTypes: Cloak, Thief
 	RenderSprites:
 		Image: GNRL
@@ -198,3 +262,13 @@ powerproxy.pararifles:
 	Inherits: powerproxy.paratroopers
 	ParatroopersPower:
 		DropItems: E1,E1,E1,E1,E1
+=======
+		CloakTypes: Cloak, Hijacker
+	RenderSprites:
+		Image: GNRL
+        
+powerproxy.pararifles:
+	Inherits: powerproxy.paratroopers
+	ParatroopersPower:
+		DropItems: E1,E1,E1,E1,E1
+>>>>>>> bleed

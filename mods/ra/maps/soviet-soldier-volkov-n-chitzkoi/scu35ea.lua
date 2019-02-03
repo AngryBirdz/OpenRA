@@ -1,5 +1,9 @@
 --[[
+<<<<<<< HEAD
    Copyright 2007-2019 The OpenRA Developers (see AUTHORS)
+=======
+   Copyright 2007-2018 The OpenRA Developers (see AUTHORS)
+>>>>>>> bleed
    This file is part of OpenRA, which is free software. It is made
    available to you under the terms of the GNU General Public License
    as published by the Free Software Foundation, either version 3 of
